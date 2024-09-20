@@ -14,7 +14,8 @@ h1 {
   /* 이미지 갤러리 스타일링 */
   .gallery {
     display: flex;
-    flex-direction: column;
+    /* 위에서 아래로 정렬 */
+    flex-direction: column;    
     align-items: center;
   }
   /* 이미지들을 컬럼으로 분리 */
@@ -23,7 +24,7 @@ h1 {
     max-width: 85%;
     margin: 40px 0; 
     /* 이미지들을 3줄 각 310px로 설정 */
-    columns: 3 310px;
+    columns: 2 310px;
     list-style: none;
   }
 
